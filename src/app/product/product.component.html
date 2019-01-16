@@ -1,0 +1,23 @@
+<h1>Đặc sản OTF</h1>
+
+
+<div class="row" id="product-list">
+  <ul>
+    <li *ngFor="let p of products">
+      <div class="col-sm-4">
+        <img src="/assets/images/{{p.image_link}}" style="width:300px;height:300px;">
+        <div class="row extend">
+          <div class="row">
+            <p>Tên: <span class="name">{{p.name}}</span></p>
+          </div>
+          <div class="row">
+            <p>Giá: <span class="price">{{p.price}}</span></p>
+          </div>
+          <div class="row">
+            <p>Mô tả: <span class="description">{{p.description}}</span></p>
+          </div>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>

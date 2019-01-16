@@ -1,0 +1,31 @@
+@import './../.././assets/css/lib/bootstrap-3.3.7-dist/css/bootstrap.min.css';
+/* Products Component's private CSS styles */
+#product-list{
+  margin-top: 50px;
+}
+
+h1{
+    text-align: center;
+    color: orangered;
+}
+
+li{
+    list-style-type: none;
+}
+  
+.extend{
+  padding-left: 20px;
+  margin-left: 10px;
+}
+
+.name{
+  color: blue;
+}
+
+.price{
+  color: brown;
+}
+
+.description{
+  color: aqua;
+}
